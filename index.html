@@ -11,23 +11,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>StudyLens PRサイト</title>
     
 </head>
 <body>
-    <div class="container">
-        <header class="d-flex flex-wrap justify-content-center py-3 border-bottom">
-          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-            <img class="bi me-2" width="40" src="img/logo.png">
-            <span class="fs-4">StudyLens</span>
-          </a>
-    
-          <ul class="nav nav-pills">
-            <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">ホーム</a></li>
-            <li class="nav-item"><a href="https://studylens-370109.web.app/" class="nav-link" aria-current="page">アプリを開く</a></li>
-          </ul>
-        </header>
-    </div>
+    <header class="jp-header" id="top-head">
+        <div class="jp-header__menu-wrapper">
+            <a href="/" class="d-flex align-items-center text-dark text-decoration-none margin logo" >
+                <img class="bi me-2" width="40" src="img/logo.png">
+                <span class="fs-4">StudyLens</span>
+            </a>
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">ホーム</a></li>
+                <li class="nav-item"><a href="https://studylens-370109.web.app/" class="nav-link" aria-current="page">アプリを開く</a></li>
+            </ul>
+        </div>
+    </header>
 
     <main>
         <div class="mb-4">
@@ -81,7 +81,7 @@
         </div>
 
         <div class="container py-5">
-            <h2>使い方</h2>
+            <h2 class="title">使い方</h2>
             <div class="py-3">
                 <h3>1. Googleアカウントでログイン</h3>
                 <p>

@@ -1,0 +1,35 @@
+.jp-header__menu-wrapper {
+    text-align: center;
+    padding-top: 6vh;
+}
+
+.margin {
+    margin: 30px auto 30px;
+}
+
+.logo {
+    width: calc((240 - 180) * ((100vw - 360px) / (1000 - 360)) + 180px);
+}
+
+.fs-4 {
+    text-align: center;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: end;
+}
+
+.title {
+    position: relative;
+    background-color: red;
+    color: black;
+    font-size: calc((20 - 16) * ((100vw - 360px) / (1000 - 360)) + 16px);
+    padding: 1em;
+    border-radius: 10px;
+    text-align: left;
+    margin-top: 5vh;
+}
