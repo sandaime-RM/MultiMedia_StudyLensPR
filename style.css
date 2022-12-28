@@ -1,5 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+*
+{
+	margin: 0;
+	padding: 0;
+}
 
+body
+{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	color: #333333;
+	word-wrap:break-word;
+}
+
+p
+{
+	margin: 0 0 10px;
+}
+
+ul
+{
+	list-style: none;
+}
+
+.container {
+	width: 100%;
+	margin: auto;
+	font-weight: 900;
+	text-align: center;
+	padding: 0 0 200px;
+}
 
 .jp-header__menu-wrapper {
     text-align: center;
@@ -121,106 +151,6 @@ h2 {
     }
   }
   
-  /* address */
-  
-  .address {
-    margin: 10px 0 0;
-    padding: 0;
-  }
-  
-  @media screen and (max-width: 767px) {
-    .address {
-      font-size: 12px;
-    }
-  }
-  
-  /* navi */
-  
-  .navi-row {
-    display: flex;
-    margin-top: 40px;
-  }
-  #footer .navi {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  #footer .navi li {
-    display: inline-block;
-    margin: 0 20px 0 0;
-    padding: 0;
-  }
-  #footer .navi li:first-child {
-    margin-left: 0;
-  }
-  
-  @media screen and (max-width: 767px) {
-    .navi-row {
-      display: block;
-      margin-top: 15px;
-    }
-    #footer .navi {
-      font-size: 12px;
-    }
-    #footer .navi li {
-      margin-top: 5px;
-      font-size: 12px;
-    }
-  }
-  
-  /* sns-navi */
-  
-  #footer .sns-navi {
-    margin: 0 0 0 auto;
-    padding: 0;
-  }
-  #footer .sns-navi li {
-    display: inline-block;
-    margin: 0 20px 0 0;
-    padding: 0;
-    font-size: 20px;
-  }
-  #footer .sns-navi li:last-child {
-    margin-right: 0;
-  }
-  
-  @media screen and (max-width: 767px) {
-    #footer .sns-navi {
-      margin: 20px 0 0;
-      padding: 0;
-    }
-    #footer .sns-navi li {
-      margin: 0 20px 0 0;
-      padding: 0;
-      font-size: 18px;
-    }
-  }
-  
-  /* sitenavi */
-  
-  #footer .sitenavi {
-    width: 50%;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  #footer .sitenavi li {
-    display: inline-block;
-    margin: 0 0 0 20px;
-    padding: 0;
-  }
-  #footer .sitenavi li:first-child {
-    margin-left: 0;
-  }
-  
-  @media screen and (max-width: 767px) {
-    #footer .sitenavi {
-      width: 100%;
-      text-align: center;
-      font-size: 12px;
-    }
-  }
-  
   /* copyright */
   
   #footer .copyright {
@@ -247,38 +177,12 @@ h2 {
     padding: 0;
   }
 
-  *
-{
-	margin: 0;
-	padding: 0;
-}
-
-body
-{
-	font-family: 'Lato', sans-serif;
-	font-size: 14px;
-	color: #333333;
-	word-wrap:break-word;
-}
-
-p
-{
-	margin: 0 0 10px;
-}
-
-ul
-{
-	list-style: none;
-}
-
-.container {
-	width: 100%;
-	margin: auto;
-	font-weight: 900;
-	text-align: center;
-	padding: 0 0 200px;
-}
-
+  a, a:link, a:visited {
+    text-decoration: none;
+    padding: 9px 15px;
+    border-radius: 5px;
+    color: gray;
+  }
 
   .animate {
       font-size: 50px;
@@ -297,7 +201,7 @@ ul
     text-decoration: none;
     color: blue;
     padding: 5px 12px;
-    border: 1px solid rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(25, 39, 193, 0.822);
     font-weight: normal;
     margin: 0 0 0 50px;
     border-radius: 3px;
