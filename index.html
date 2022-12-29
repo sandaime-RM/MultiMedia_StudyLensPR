@@ -11,23 +11,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>StudyLens PRサイト</title>
     
 </head>
 <body>
-    <div class="container">
-        <header class="d-flex flex-wrap justify-content-center py-3 border-bottom">
-          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-            <img class="bi me-2" width="40" src="img/logo.png">
-            <span class="fs-4">StudyLens</span>
-          </a>
-    
-          <ul class="nav nav-pills">
-            <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">ホーム</a></li>
-            <li class="nav-item"><a href="https://studylens-370109.web.app/" class="nav-link" aria-current="page">アプリを開く</a></li>
-          </ul>
-        </header>
-    </div>
+    <header class="jp-header" id="top-head">
+        <div class="jp-header__menu-wrapper">
+            <a href="/" class="d-flex align-items-center text-dark text-decoration-none margin logo" >
+                <img class="bi me-2" width="40" src="img/logo.png">
+                <span class="fs-4">StudyLens</span>
+            </a>
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="index.html" class="nav-link" aria-current="page">ホーム</a></li>
+                <li class="nav-item"><a href="https://studylens-370109.web.app/" class="nav-link" aria-current="page">アプリを開く</a></li>
+            </ul>
+        </div>
+    </header>
 
     <main>
         <div class="mb-4">
@@ -37,7 +37,7 @@
         <div class="text-center container py-3">
             <div class="text-secondary">新しい英語学習アプリ</div>
             <div class="fs-2 py-2">StudyLens</div>
-            <a class="btn btn-primary col-8 my-2" href="https://studylens-370109.web.app/">使ってみる</a>
+            <a class="btn-square-raised" href="https://studylens-370109.web.app/">使ってみる</a>
         </div>
 
         <div class="container py-5">
@@ -49,7 +49,16 @@
                 <li class="list-group-item">自分で単語帳を作っているけど、作る作業が手間…</li>
             </ul>
 
-            <p class="fs-3 text-center py-4">これらの課題は<br>StudyLensで解決できます！</p>
+            <div class="container">
+                <div class="animate seven">
+                    <span>こ</span><span>れ</span><span>ら</span><span>の</span><span>課</span><span>題</span><span>は</span>
+                    <br>
+                    <span>S</span><span>t</span><span>u</span><span>d</span><span>y</span><span>L</span><span>e</span><span>n</span><span>s</span><span>で</span><span>解</span><span>決</span><span>で</span><span>き</span><span>ま</span><span>す</span><span>！</span>
+                    <a class="repeat" onclick="window.location.reload();">Repeat Animation</a>
+                </div>
+            </div>
+        </div>
+           
         </div>
         
         <div class="container py-5">
@@ -81,7 +90,7 @@
         </div>
 
         <div class="container py-5">
-            <h2>使い方</h2>
+            <h2 class="title">使い方</h2>
             <div class="py-3">
                 <h3>1. Googleアカウントでログイン</h3>
                 <p>
@@ -117,13 +126,22 @@
             <p class="fs-3">さあ、使ってみよう！</p>
             <div class="text-secondary">新しい英語学習アプリ</div>
             <div class="fs-2 py-2">StudyLens</div>
-            <a class="btn btn-primary col-8 my-2" href="https://studylens-370109.web.app/">使ってみる</a>
+            <a class="btn-square-raised" href="https://studylens-370109.web.app/">使ってみる</a>
         </div>
     </main>
 
-    <footer class="py-4 px-4">
-        <p class="text-secondary">当サイト制作 : 松浦竜征，山田悠人<br>
+    <!-- <footer class="py-4 px-4">
+        <p class="text-secondary">当サイト制作 : 松浦竜征、山田悠人、りゅう<br>
         アプリ制作 : SEA FORCE</p>
-    </footer>
+    </footer> -->
+
+    <footer id="footer">
+        <section class="primary">
+            <p class="logomar"><a href="https://studylens-370109.web.app/">SyudyLens</a></p>
+            <p>当サイト制作 : 松浦竜征、山田悠人、りゅう</p>
+            <p>アプリ制作 : SEA FORCE</p>
+            <p class="copyright">@Copyright Ryusei Matsuura, Yuto Yamada, Ryu  All rights reserved.</p>
+        </section>
+      </footer>
 </body>
 </html>
